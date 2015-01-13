@@ -1,0 +1,1 @@
+Router.configure({    layoutTemplate: 'layout'});Router.route('/', function() {    this.render('welcome');});Router.route('/projects', function() {    this.render('projects');})
